@@ -10,6 +10,8 @@
     justify-content: flex-start;
     gap: 0.75rem;
     list-style: none;
+    justify-content: center;
+    align-items: center;
 }
 #clientes {
     display: flex;
