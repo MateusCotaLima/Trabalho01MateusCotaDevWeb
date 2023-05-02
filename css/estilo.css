@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 0.75rem;
+    list-style: none;
+}
+#clientes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 0.75rem;
+    margin: 2rem;
+}
+
+
+  
+.form{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+}
+
+.border-left-primary {
+    border-left: 0.25rem solid #4e73df !important;
+  }
+
+  .border-left-success {
+    border-left: 0.25rem solid #1cc88a !important;
+  }
+
+  div{
+    border-style: none!important;
+  }
+
+  .itens{
+    min-width: 19%;
+  }
+  #titulo{
+    vertical-align: middle;
+    margin-bottom: 0;
+    margin-left: 2rem
+  }
+  #logo{
+    width: 8vh;
+    margin-right: 2rem;
+  }
+
+  #topbar{
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+    
+ 
